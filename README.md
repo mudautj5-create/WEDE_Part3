@@ -5,9 +5,32 @@ GitHub: mudautj5
 
 Netfliy Link:https://bejewelled-selkie-eecd1d.netlify.app
 
-Edits made from Part 2 feedback
+Location runs on live server
 
-Comprehensive updates or changes made based on feedback. Changelog is detailed and well-documented. External stylesheet created and correctly implemented in all pages. Pseudo-classes are used comprehensively and effectively. Interactive elements are styled correctly, enhancing user interaction. Image adjustments are comprehensive and well-implemented. Images adapt seamlessly to different screen sizes. README document is comprehensive and well-detailed. The changelog is comprehensive and well-detailed. References are comprehensive and correctly formatted.
+Services and Product runs on the server
+
+Part 3 changes
+
+Added gallery with lightbox, scroll-reveal animation and animated impact counters. 
+
+Added accessible tabs, accordion and modals (ARIA attributes, keyboard support). 
+
+services.html, js/products.js, data/products.json. Replaced static product content with dynamic listings loaded via fetch, plus search, category filter and sort. 
+
+contact.html, js/map.js Added Leaflet map with four service location markers. 
+
+enquiry.html, js/forms.js, js/enquiry.js Built enquiry form with JavaScript validation, error messages, AJAX submission and an estimated cost/availability response. 
+
+contact.html, js/contact.js Built contact form with validation and an email compiled for sending to the recipient stated in the code.
+
+all html files Added unique title tags, meta descriptions, canonical links, Open Graph tags and JSON LD structured data; checked heading hierarchy and alt text.
+
+robots.txt, sitemap.xml  Created crawler instructions and a sitemap.
+
+headers  Added security and caching headers.
+
+README.md  Updated for Part 3: new features, SEO notes, changelog and references. 
+
 
 References
 
