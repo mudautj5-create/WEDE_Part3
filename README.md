@@ -5,7 +5,7 @@ A multi-page website for **Kunyarungo AgriTech Solutions**, a hypothetical agrit
 - **Module:** WEDE5020
 - **Student:** Tshifhiwa Mudau (ST10521460)
 - **GitHub:** mudautj5
-- **Live site:** `<https://bejewelled-selkie-eecd1d.netlify.app>`
+- **Live site:** https://bejewelled-selkie-eecd1d.netlify.app
 
 > Kunyarungo AgriTech Solutions is a fictional organisation. Team members, phone numbers, prices, statistics and service hubs are invented for this student project.
 
