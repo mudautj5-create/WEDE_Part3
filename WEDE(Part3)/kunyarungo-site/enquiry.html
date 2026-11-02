@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Solar Irrigation Quote | Kunyarungo AgriTech Enquiry</title>
+  <meta name="description" content="Enquire about solar irrigation kits and get an instant estimated cost and availability for your farm. Short, mobile friendly form with a request-a-quote option.">
+  <meta name="keywords" content="solar irrigation quote, request a quote, irrigation enquiry South Africa, farm water estimate">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kunyarungo-agritech.netlify.app/enquiry.html">
+  <meta property="og:title" content="Request a Solar Irrigation Quote | Kunyarungo AgriTech">
+  <meta property="og:description" content="Get an estimated cost and availability for solar irrigation on your farm.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kunyarungo-agritech.netlify.app/images/solar-irrigation-hero.svg">
+  <meta name="theme-color" content="#14532d">
+  <link rel="icon" href="images/solar-irrigation-hero.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="sun" aria-hidden="true">&#9728;</span> Kunyarungo AgriTech</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Toggle navigation menu">&#9776;</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services &amp; Products</a></li>
+          <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Enquiry</p>
+        <h1>Product and service enquiry</h1>
+        <p>Tell us about your farm and choose a package. Once you submit, you will see an estimated cost and availability straight away. For a general message instead, use the <a href="contact.html">contact page</a>.</p>
+      </div>
+    </div>
+
+    <section aria-labelledby="enq-heading">
+      <div class="container" style="max-width:760px">
+        <h2 id="enq-heading">Enquiry form</h2>
+        <form id="enquiryForm" action="/" method="post" name="enquiry" data-netlify="true" netlify-honeypot="website" novalidate>
+          <input type="hidden" name="form-name" value="enquiry">
+          <div class="form-row">
+            <label for="fullName">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="fullName" name="fullName" required minlength="2" maxlength="60" autocomplete="name" aria-describedby="fullName-err">
+            <p class="error-msg" id="fullName-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required maxlength="100" autocomplete="email" aria-describedby="email-err">
+            <p class="error-msg" id="email-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone number <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="phone" name="phone" required inputmode="tel" placeholder="e.g. 082 123 4567" autocomplete="tel" aria-describedby="phone-hint phone-err">
+            <p class="hint" id="phone-hint">South African number, 10 digits starting with 0 (or +27).</p>
+            <p class="error-msg" id="phone-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="province">Province <span class="req" aria-hidden="true">*</span></label>
+            <select id="province" name="province" required aria-describedby="province-err">
+              <option value="">Select your province</option>
+              <option>Limpopo</option>
+              <option>Mpumalanga</option>
+              <option>Free State</option>
+              <option>KwaZulu-Natal</option>
+              <option>Eastern Cape</option>
+              <option>North West</option>
+              <option>Gauteng</option>
+              <option>Northern Cape</option>
+              <option>Western Cape</option>
+            </select>
+            <p class="error-msg" id="province-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="enquiryType">What would you like to enquire about? <span class="req" aria-hidden="true">*</span></label>
+            <select id="enquiryType" name="enquiryType" required aria-describedby="enquiryType-err">
+              <option value="">Select one</option>
+              <option value="product">A solar irrigation product</option>
+              <option value="consultation">A farm consultation</option>
+              <option value="quote">Request a quote</option>
+            </select>
+            <p class="error-msg" id="enquiryType-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="product">Package of interest <span class="req" aria-hidden="true">*</span></label>
+            <select id="product" name="product" required aria-describedby="product-err">
+              <option value="">Loading packages&hellip;</option>
+            </select>
+            <p class="error-msg" id="product-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="hectares">Size of area to irrigate (hectares) <span class="req" aria-hidden="true">*</span></label>
+            <input type="number" id="hectares" name="hectares" required min="0.1" max="500" step="0.1" inputmode="decimal" aria-describedby="hectares-err">
+            <p class="error-msg" id="hectares-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="startDate">Preferred installation date <span class="req" aria-hidden="true">*</span></label>
+            <input type="date" id="startDate" name="startDate" required aria-describedby="startDate-err">
+            <p class="error-msg" id="startDate-err" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="notes">Anything else we should know? (optional)</label>
+            <textarea id="notes" name="notes" maxlength="500" aria-describedby="notes-count"></textarea>
+            <p class="hint" id="notes-count">0 / 500 characters</p>
+          </div>
+          <div class="form-row">
+            <label><input type="checkbox" id="consent" name="consent" required style="width:auto;min-height:0;margin-right:.5rem"> I agree that Kunyarungo AgriTech may contact me about this enquiry (POPIA). <span class="req" aria-hidden="true">*</span></label>
+            <p class="error-msg" id="consent-err" role="alert"></p>
+          </div>
+          <div class="honeypot" aria-hidden="true"><label>Leave blank <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn" type="submit" id="submitBtn">Get my estimate <span class="spinner" aria-hidden="true">&hellip;</span></button>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h2>Kunyarungo AgriTech</h2><p>Affordable solar irrigation for small scale and emerging farmers.</p></div>
+      <div><h2>Pages</h2><ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services &amp; Products</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h2>Follow us</h2><ul>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook (project updates)</a></li>
+        <li><a href="mailto:info@kunyarungo.co.za">info@kunyarungo.co.za</a></li></ul></div>
+    </div>
+    <p class="copyright">&copy; 2026 Kunyarungo AgriTech Solutions (hypothetical organisation created for a student project).</p>
+  </footer>
+  <script src="js/main.js" defer></script>
+  <script src="js/forms.js" defer></script>
+  <script src="js/enquiry.js" defer></script>
+</body>
+</html>

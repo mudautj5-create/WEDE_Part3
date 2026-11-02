@@ -1,0 +1,7 @@
+# robots.txt for Kunyarungo AgriTech Solutions
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /README.md
+
+Sitemap: https://kunyarungo-agritech.netlify.app/sitemap.xml

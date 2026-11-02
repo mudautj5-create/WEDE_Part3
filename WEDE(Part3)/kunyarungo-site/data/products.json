@@ -1,0 +1,86 @@
+[
+  {
+    "id": "starter-pump",
+    "name": "Starter Solar Pump Kit",
+    "category": "Irrigation kits",
+    "price": 8500,
+    "hectaresPerKit": 0.5,
+    "leadTimeDays": 7,
+    "stock": "In stock",
+    "image": "images/starter-solar-pump-kit.svg",
+    "alt": "Starter solar pump kit with one solar panel beside a small crop field",
+    "description": "A single-panel solar pump for food gardens and plots up to half a hectare."
+  },
+  {
+    "id": "drip-standard",
+    "name": "Standard Drip Irrigation Kit",
+    "category": "Irrigation kits",
+    "price": 18500,
+    "hectaresPerKit": 1,
+    "leadTimeDays": 14,
+    "stock": "In stock",
+    "image": "images/standard-drip-irrigation-kit.svg",
+    "alt": "Solar drip irrigation kit with panel and storage tank",
+    "description": "Solar pump, tank connection and drip lines that cover about one hectare."
+  },
+  {
+    "id": "pro-system",
+    "name": "Professional Farm Irrigation System",
+    "category": "Irrigation kits",
+    "price": 46000,
+    "hectaresPerKit": 3,
+    "leadTimeDays": 28,
+    "stock": "Made to order",
+    "image": "images/pro-farm-irrigation-system.svg",
+    "alt": "Large solar irrigation system with sensor for bigger fields",
+    "description": "Multi-panel system with sensors and automation for three hectares or more."
+  },
+  {
+    "id": "tank-package",
+    "name": "Water Storage Tank Package",
+    "category": "Water management",
+    "price": 12000,
+    "hectaresPerKit": 1,
+    "leadTimeDays": 10,
+    "stock": "In stock",
+    "image": "images/water-storage-tank-package.svg",
+    "alt": "Blue water storage tank connected to a solar pump",
+    "description": "5,000 litre storage tank with stand and float valve to bank water for dry days."
+  },
+  {
+    "id": "sensor-package",
+    "name": "Soil Moisture Sensor Package",
+    "category": "Water management",
+    "price": 6500,
+    "hectaresPerKit": 2,
+    "leadTimeDays": 10,
+    "stock": "In stock",
+    "image": "images/soil-moisture-sensor-package.svg",
+    "alt": "Soil moisture sensor standing in a crop field",
+    "description": "Solar powered sensors that show when your crops really need water."
+  },
+  {
+    "id": "coop-garden",
+    "name": "Community Garden Solar Kit",
+    "category": "Cooperative packages",
+    "price": 32000,
+    "hectaresPerKit": 2,
+    "leadTimeDays": 21,
+    "stock": "Made to order",
+    "image": "images/community-garden-solar-kit.svg",
+    "alt": "Community garden with a shared solar irrigation system",
+    "description": "Shared solar irrigation sized for cooperatives, with training included."
+  },
+  {
+    "id": "consultation",
+    "name": "Farm Water Consultation",
+    "category": "Consultation services",
+    "price": 1500,
+    "hectaresPerKit": 5,
+    "leadTimeDays": 5,
+    "stock": "Bookings open",
+    "image": "images/farm-consultation-service.svg",
+    "alt": "Farm site assessment with sensor in a crop field",
+    "description": "On-site assessment of your water source, soil and crops, with a written plan."
+  }
+]
