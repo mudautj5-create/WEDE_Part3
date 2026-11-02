@@ -97,17 +97,7 @@ kunyarungo-site/
 | 2026-11-02 | `_headers` | Added security and caching headers. |
 | 2026-11-02 | `README.md` | Updated for Part 3: new features, SEO notes, changelog and references. |
 
-### Edits made from Part 2 feedback
-Comprehensive updates or changes made based on feedback. Changelog is detailed and well-documented.
-External stylesheet created and correctly implemented in all pages.
-Pseudo-classes are used comprehensively and effectively. Interactive elements are styled correctly, enhancing user interaction.
-Image adjustments are comprehensive and well-implemented. Images adapt seamlessly to different screen sizes.
-README document is comprehensive and well-detailed.
-The changelog is comprehensive and well-detailed.
-References are comprehensive and correctly formatted.
 
-| Feedback received (Part 2) | File(s) changed | What I changed and why |
-I have added JavaScript and CSS
 
 ---
 
