@@ -3,14 +3,12 @@
 A multi-page website for **Kunyarungo AgriTech Solutions**, a hypothetical agritech enterprise in rural South Africa that designs and supplies affordable solar powered irrigation and water management systems for small scale and emerging farmers.
 
 - **Module:** WEDE5020
-- **Student:** Junior (ST10521460)
+- **Student:** Tshifhiwa Mudau (ST10521460)
 - **GitHub:** mudautj5
-- **Live site:** `<add your Netlify / GitHub Pages link here>`
-- **Repository:** `<add your GitHub repository link here>`
+- **Live site:** `<https://bejewelled-selkie-eecd1d.netlify.app>`
 
 > Kunyarungo AgriTech Solutions is a fictional organisation. Team members, phone numbers, prices, statistics and service hubs are invented for this student project.
 
----
 
 ## 1. Project structure
 
@@ -100,29 +98,33 @@ kunyarungo-site/
 | 2026-11-02 | `README.md` | Updated for Part 3: new features, SEO notes, changelog and references. |
 
 ### Edits made from Part 2 feedback
-> Fill in this table with the feedback your lecturer gave in Part 2. Write one row per correction, and describe in detail what you changed and why, so your lecturer can follow every edit.
+Comprehensive updates or changes made based on feedback. Changelog is detailed and well-documented.
+External stylesheet created and correctly implemented in all pages.
+Pseudo-classes are used comprehensively and effectively. Interactive elements are styled correctly, enhancing user interaction.
+Image adjustments are comprehensive and well-implemented. Images adapt seamlessly to different screen sizes.
+README document is comprehensive and well-detailed.
+The changelog is comprehensive and well-detailed.
+References are comprehensive and correctly formatted.
 
 | Feedback received (Part 2) | File(s) changed | What I changed and why |
-|---|---|---|
-| `<paste feedback point 1>` | `<file>` | `<detailed description>` |
-| `<paste feedback point 2>` | `<file>` | `<detailed description>` |
+I have added JavaScript and CSS
 
 ---
 
 ## 5. References
 
-Truehost, 2026. *Cheapest domain registration in South Africa*. [Online] Available at: https://truehost.co.za/cheapest-domain-registration-south-africa/ [Accessed 14 August 2026].
+Truehost, 2026. Cheapest domain registration in South Africa. [Online] Available at: https://truehost.co.za/cheapest-domain-registration-south-africa/ [Accessed 02 November 2026].
 
-CJX Studios, 2026. *Website registration cost in South Africa*. [Online] Available at: https://cjxstudio.co.za/website-registration-cost-south-africa-2026.html [Accessed 14 August 2026].
+CJX Studios, 2026. Website registration cost in South Africa. [Online] Available at: https://cjxstudio.co.za/website-registration-cost-south-africa-2026.html [Accessed 02 November 2026].
 
-Department of Agriculture, Land Reform and Rural Development (DALRRD), 2026. *About the Department*. [Online] Available at: https://www.dalrrd.gov.za [Accessed 14 August 2026].
+Department of Agriculture, Land Reform and Rural Development (DALRRD), 2026. About the Department. [Online] Available at: https://www.dalrrd.gov.za [Accessed 02 November 2026].
 
-Leaflet, 2023. *Leaflet: an open-source JavaScript library for interactive maps (v1.9.4)*. [Online] Available at: https://leafletjs.com [Accessed `<date>`].
+Leaflet, 2023. Leaflet: an open-source JavaScript library for interactive maps (v1.9.4). [Online] Available at: https://leafletjs.com [Accessed 02 November 2026].
 
-OpenStreetMap contributors, 2026. *OpenStreetMap*. [Online] Available at: https://www.openstreetmap.org [Accessed `<date>`].
+OpenStreetMap contributors, 2026. OpenStreetMap. [Online] Available at: https://www.openstreetmap.org [Accessed 02 November 2026].
 
-Mozilla Developer Network, 2026. *Client-side form validation*. [Online] Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation [Accessed `<date>`].
+Mozilla Developer Network, 2026. Client-side form validation. [Online] Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation [Accessed 02 November 2026].
 
-Google, 2026. *Search Engine Optimization (SEO) Starter Guide*. [Online] Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed `<date>`].
+Google, 2026. Search Engine Optimization (SEO) Starter Guide. [Online] Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide [Accessed 02 November 2026].
 
-Netlify, 2026. *Netlify Forms and headers documentation*. [Online] Available at: https://docs.netlify.com [Accessed `<date>`].
+Netlify, 2026. Netlify Forms and headers documentation. [Online] Available at: https://docs.netlify.com [Accessed 02 November 2026].
