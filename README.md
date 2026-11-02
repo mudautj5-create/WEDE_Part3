@@ -9,6 +9,8 @@ Location runs on live server
 
 Services and Product runs on the server
 
+
+
 Part 3 changes
 
 Added gallery with lightbox, scroll-reveal animation and animated impact counters. 
@@ -30,6 +32,7 @@ robots.txt, sitemap.xml  Created crawler instructions and a sitemap.
 headers  Added security and caching headers.
 
 README.md  Updated for Part 3: new features, SEO notes, changelog and references. 
+
 
 
 References
